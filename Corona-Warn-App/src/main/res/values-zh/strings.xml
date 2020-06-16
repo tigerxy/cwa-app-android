@@ -1,1 +1,271 @@
-<?xml version="1.0" encoding="UTF-8"?><resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation"/>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ####################################
+               Preference Keys
+    ######################################
+    TODO: Check what is needed 
+ NOTR -->
+    <string name="preference_name"><xliff:g id="preference">"shared_preferences_cwa"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_onboarding_completed"><xliff:g id="preference">"preference_onboarding_completed"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_onboarding_completed_timestamp"><xliff:g id="preference">"preference_onboarding_completed_timestamp"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_reset_app"><xliff:g id="preference">"preference_reset_app"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_only_wifi"><xliff:g id="preference">"preference_only_wifi"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_tracing"><xliff:g id="preference">"preference_tracing"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_timestamp_diagnosis_keys_fetch"><xliff:g id="preference">"preference_timestamp_diagnosis_keys_fetch"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_timestamp_manual_diagnosis_keys_retrieval"><xliff:g id="preference">"preference_timestamp_manual_diagnosis_keys_retrieval"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_string_google_api_token"><xliff:g id="preference">"preference_m_string_google_api_token"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_notifications_enabled"><xliff:g id="preference">"preference_notifications_enabled"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_notifications_risk_enabled"><xliff:g id="preference">"preference_notifications_risk_enabled"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_notifications_test_enabled"><xliff:g id="preference">"preference_notifications_test_enabled"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_background_job_allowed"><xliff:g id="preference">"preference_background_job_enabled"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_mobile_data_allowed"><xliff:g id="preference">"preference_mobile_data_enabled"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_registration_token"><xliff:g id="preference">"preference_registration_token"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_device_pairing_successful_time"><xliff:g id="preference">"preference_device_pairing_successful_time"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_initial_tracing_activation_time"><xliff:g id="preference">"preference_initial_tracing_activation_time"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_initial_result_received_time"><xliff:g id="preference">"preference_initial_result_received_time"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_risk_level_score"><xliff:g id="preference">"preference_risk_level_score"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_risk_level_score_successful"><xliff:g id="preference">"preference_risk_level_score_successful"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_timestamp_risk_level_calculation"><xliff:g id="preference">"preference_timestamp_risk_level_calculation"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_test_guid"><xliff:g id="preference">"preference_test_guid"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_is_allowed_to_submit_diagnosis_keys"><xliff:g id="preference">"preference_is_allowed_to_submit_diagnosis_keys"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_auth_code"><xliff:g id="preference">"preference_auth_code"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_database_password"><xliff:g id="preference">"preference_database_password"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_total_non_active_tracing"><xliff:g id="preference">"preference_total_non_active_tracing"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_last_non_active_tracing_timestamp"><xliff:g id="preference">"preference_last_non_active_tracing_timestamp"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_number_successful_submissions"><xliff:g id="preference">"preference_number_successful_submissions"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_teletan"><xliff:g id="preference">"preference_teletan"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_last_three_hours_from_server"><xliff:g id="preference">"preference_last_three_hours_from_server"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_polling_test_result_started"><xliff:g id="preference">"preference_polling_test_result_started"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="preference_test_result_notification"><xliff:g id="preference">"preference_test_result_notification"</xliff:g></string>
+
+    <!-- ####################################
+                     Generics
+    ###################################### 
+ XACT: back description for screen readers -->
+    <string name="accessibility_back">"返回"</string>
+
+    <!-- XACT: next description for screen readers -->
+    <string name="accessibility_next">"下一页"</string>
+
+    <!-- XACT: menu description for screen readers -->
+    <string name="accessibility_menu">"菜单"</string>
+
+    <!-- XACT: menu description for screen readers -->
+    <string name="accessibility_close">"关闭"</string>
+
+    <!-- XACT: menu description for screen readers -->
+    <string name="accessibility_logo">"新冠警示App"</string>
+
+    <!-- ####################################
+                     Menu
+    ###################################### 
+ XMIT: application overview -->
+    <string name="menu_help">"概览"</string>
+
+    <!-- XMIT: application information -->
+    <string name="menu_information">"App 信息"</string>
+
+    <!-- XMIT: application settings -->
+    <string name="menu_settings">"设置"</string>
+
+    <!-- ####################################
+               Notification
+    ###################################### 
+ NOTR -->
+    <string name="notification_channel_id"><xliff:g id="notification_channel_id">"de.rki.coronawarnapp.notification.exposureNotificationChannelId"</xliff:g></string>
+
+    <!-- NOTR -->
+    <string name="notification_id"><xliff:g id="notification_id">"1"</xliff:g></string>
+
+    <!-- XTXT: Notification channel name for os settings -->
+    <string name="notification_name">"新冠病毒警示App"</string>
+
+    <!-- XTXT: Notification channel description for os settings -->
+    <string name="notification_description">"新冠病毒警示App通知"</string>
+
+    <!-- XHED: Notification title -->
+    <string name="notification_headline">"新冠病毒警示App"</string>
+
+    <!-- XTXT: Notification body -->
+    <string name="notification_body">"你收到来自新冠警示App的信息。"</string>
+
+    <!-- ####################################
+              App Auto Update
+    ###################################### 
+ XHED: App Auto Update dialog title -->
+    <string name="update_dialog_title">"软件更新"</string>
+
+    <!-- XTXT: App Auto Update dialog message -->
+    <string name="update_dialog_message">"请注意，您已经安装了最新版本，您可以再次使用新冠警示App"</string>
+
+    <!-- XBUT: App Auto Update button -->
+    <string name="update_dialog_button">"更新"</string>
+
+    <!-- ####################################
+                  Risk Card
+    ###################################### 
+ XTXT: risk card - no contact yet -->
+    <string name="risk_card_body_contact">"直至现在没有感染显示"</string>
+
+    <!-- XTXT: risk card - tracing active for x out of 14 days -->
+    <string name="risk_card_body_saved_days">"%1$s / 14天活跃"</string>
+
+    <!-- XTXT; risk card - no update done yet -->
+    <string name="risk_card_body_not_yet_fetched">"接触未被查询"</string>
+
+    <!-- XTXT: risk card - last successful update -->
+    <string name="risk_card_body_time_fetched">"更新：%1$s"</string>
+
+    <!-- XTXT: risk card - next update -->
+    <string name="risk_card_body_next_update">"每日更新"</string>
+
+    <!-- XBUT: risk card - update risk -->
+    <string name="risk_card_button_update">"更新"</string>
+
+    <!-- XBUT: risk card - update risk with time display -->
+    <string name="risk_card_button_cooldown">"更新进程：%1$s"</string>
+
+    <!-- XBUT: risk card - activate tracing -->
+    <string name="risk_card_button_enable_tracing">"开启 风险探测"</string>
+
+    <!-- XTXT: risk card - tracing is off, user should activate to get an updated risk level -->
+    <string name="risk_card_body_tracing_off">"请开启风险探测，以便估算今天的风险程度"</string>
+
+    <!-- XHED: risk card - low risk headline -->
+    <string name="risk_card_low_risk_headline">"低风险"</string>
+
+    <!-- XHED: risk card - increased risk headline -->
+    <string name="risk_card_increased_risk_headline">"高风险"</string>
+
+    <!-- XHED: risk card - unknown risk headline -->
+    <string name="risk_card_unknown_risk_headline">"风险未知"</string>
+
+    <!-- XTXT: risk card - tracing isn't active long enough, so a new risk level can't be calculated -->
+    <string name="risk_card_unknown_risk_body">"您的风险探测开启时长不足，我们不能为您估算感染风险"</string>
+
+    <!-- XHED: risk card - tracing stopped headline, due to no possible calculation -->
+    <string name="risk_card_no_calculation_possible_headline">"风险探测停止"</string>
+
+    <!-- XTXT: risk card - last successfully calculated risk level -->
+    <string name="risk_card_no_calculation_possible_body_saved_risk">"上次风险探测："<xliff:g id="line_break">"\n"</xliff:g>"%1$s"</string>
+
+    <!-- ####################################
+                Main - Overview
+    ###################################### 
+ XHED: App overview page title -->
+    <string name="main_overview_title">"概览"</string>
+
+    <!-- XACT: main overview page title -->
+    <string name="main_overview_accessibility_title">"概览"</string>
+
+    <!-- NOTR -->
+    <string name="risk_details_button_update">@string/risk_card_button_update</string>
+
+    <!-- NOTR -->
+    <string name="risk_details_button_enable_tracing">@string/risk_card_button_enable_tracing</string>
+
+    <!-- XBUT: onboarding - next -->
+    <string name="onboarding_button_next">"下一页"</string>
+
+    <!-- XTXT: onboarding - back description for screen reader -->
+    <string name="onboarding_button_back_description">"返回"</string>
+
+    <!-- XBUT: onboarding(tracing) - negative button (right) -->
+    <string name="onboarding_tracing_dialog_button_negative">"返回"</string>
+
+    <!-- ####################################
+               App Information
+    ###################################### 
+ XHED: Page title for menu information page -->
+    <string name="information_title">"App 信息"</string>
+
+    <!-- XBUT: Positive button for generic web request error -->
+    <string name="submission_error_dialog_web_generic_error_button_positive">"返回"</string>
+
+    <!-- XBUT: Positive button for already paired test error -->
+    <string name="submission_error_dialog_web_test_paired_button_positive">"返回"</string>
+
+    <!-- XBUT: Positive button for could not create submission tan -->
+    <string name="submission_error_dialog_web_paring_invalid_button_positive">"返回"</string>
+
+    <!-- XBUT: Positive button for submission tan invalid -->
+    <string name="submission_error_dialog_web_tan_invalid_button_positive">"返回"</string>
+
+    <!-- XBUT: positive test result : continue button -->
+    <string name="submission_test_result_positive_continue_button">"下一页"</string>
+
+    <!-- XBUT: Submit TAN button -->
+    <string name="submission_tan_button_text">"下一页"</string>
+
+    <!-- XBUT: Submission introduction next button -->
+    <string name="submission_intro_button_next">"下一页"</string>
+
+    <!-- XBUT: other warning continue button -->
+    <string name="submission_positive_other_warning_button">"下一页"</string>
+
+    <!-- XACT: menu button -->
+    <string name="button_menu">"菜单"</string>
+</resources>
