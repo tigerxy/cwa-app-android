@@ -189,10 +189,10 @@
     <string name="risk_card_button_cooldown">"更新进程：%1$s"</string>
 
     <!-- XBUT: risk card - activate tracing -->
-    <string name="risk_card_button_enable_tracing">"开启 风险探测"</string>
+    <string name="risk_card_button_enable_tracing">"开启 风险评估"</string>
 
     <!-- XTXT: risk card - tracing is off, user should activate to get an updated risk level -->
-    <string name="risk_card_body_tracing_off">"请开启风险探测，以便估算今天的风险程度"</string>
+    <string name="risk_card_body_tracing_off">"请开启风险评估，以便估算今天的风险程度"</string>
 
     <!-- XHED: risk card - low risk headline -->
     <string name="risk_card_low_risk_headline">"低风险"</string>
@@ -204,13 +204,16 @@
     <string name="risk_card_unknown_risk_headline">"风险未知"</string>
 
     <!-- XTXT: risk card - tracing isn't active long enough, so a new risk level can't be calculated -->
-    <string name="risk_card_unknown_risk_body">"您的风险探测开启时长不足，我们不能为您估算感染风险"</string>
+    <string name="risk_card_unknown_risk_body">"您的风险评估开启时长不足，我们不能为您估算感染风险"</string>
 
     <!-- XHED: risk card - tracing stopped headline, due to no possible calculation -->
-    <string name="risk_card_no_calculation_possible_headline">"风险探测停止"</string>
+    <string name="risk_card_no_calculation_possible_headline">"停止 风险评估"</string>
 
     <!-- XTXT: risk card - last successfully calculated risk level -->
-    <string name="risk_card_no_calculation_possible_body_saved_risk">"上次风险探测："<xliff:g id="line_break">"\n"</xliff:g>"%1$s"</string>
+    <string name="risk_card_no_calculation_possible_body_saved_risk">"上次风险评估："<xliff:g id="line_break">"\n"</xliff:g>"%1$s"</string>
+
+    <!-- XHED: risk card - loading headline, update is ongoing -->
+    <string name="risk_card_loading_headline">"正在检测..."</string>
 
     <!-- ####################################
                 Main - Overview
@@ -265,6 +268,12 @@
 
     <!-- XBUT: other warning continue button -->
     <string name="submission_positive_other_warning_button">"下一页"</string>
+
+    <!-- XLNK: Button / hyperlink to phone call for TAN contact page -->
+    <string name="submission_contact_number_display">"+49 800 7540002"</string>
+
+    <!-- XLNK: Technical number which is called when the user clicks on the display number -->
+    <string name="submission_contact_number_dial">"+49 800 7540002"</string>
 
     <!-- XACT: menu button -->
     <string name="button_menu">"菜单"</string>
